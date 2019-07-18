@@ -1,4 +1,4 @@
-/*Estilo para tablets*/
+/*                 Estilo para tablets                    */
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 /* Introdução */
@@ -13,7 +13,6 @@
 	text-align: center;
 	padding: 0px;
 }
-
 
   .qualidade:after {
 	content: "";
@@ -52,10 +51,10 @@ right: 66px;
 /* Produto info */
 
 .produto_info p{
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 20px;
 	height: 140px;
-	padding: 18px 40px;
+	padding: 19px 40px;
 }
 
 .produto_info ul li {
@@ -69,9 +68,123 @@ right: 66px;
 	padding: 41px 0;
 }
 
-/*Estilo para smartphone*/
+.produto_item {
+	padding-top: 30px;
+}
+
+/*Orçamento - Produto*/
+
+.orcamento {
+	margin-top: 30px;
+	padding: 40px 0;
+}
+
+.form label{
+	font-size: 16px;
+}
+
+.form input {
+	border: 2px solid #fec63e;
+	padding: 5px 10px;
+	margin-bottom: 8px;
+	font-size: 12px;
+
+}
+
+.form textarea {
+	height: 100px;
+	border: 2px solid #fec63e;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+
+.orcamento_dados h3{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #fec63e;
+	font-weight: bold;
+	margin-top: 2px;
+}
+
+.orcamento_dados span {
+	font-size: 16px;
+	line-height: 35px;
+}
+
+/*             Estilo para smartphone                  */
 
 @media only screen and (max-width: 767px) {
+
+/* Produto info */
+
+.produto_info p{
+	font-size: 14px;
+	line-height: 20px;
+	height: 140px;
+	padding: 12px 40px;
+}
+
+
+.produto_icone {
+	padding: 40px 0;
+}
+
+.produto_item {
+	padding-top: 30px;
+}
+
+.produto_item h2{
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+	position: relative;
+	top: -110px;
+	text-align: center;
+	margin-bottom: -56px;
+}
+
+.produto_info ul li {
+	font-size: 16px;
+	width: 149px;
+	height: 40px;
+	padding-top: 16px;
+}
+
+/*Orçamento - Produto*/
+
+.orcamento {
+	margin-top: 40px;
+	padding: 20px 0;
+}
+
+.form label{
+	font-size: 16px;
+}
+
+.form input {
+	border: 2px solid #fec63e;
+	padding: 5px 10px;
+	margin-bottom: 8px;
+	font-size: 12px;
+
+}
+
+.form textarea {
+	height: 100px;
+	border: 2px solid #fec63e;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+
+.orcamento_dados span {
+	font-size: 16px;
+	line-height: 35px;
+}
 
 
 /*Header*/
@@ -108,7 +221,7 @@ right: 66px;
 .header_menu ul li a:hover {
     border-color: white;
 }
- 
+
 .header_menu ul li a.menu_ativo {
 	border-color: white;
 }
